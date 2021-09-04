@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "246270943333",
+    "project_id": "ecommerce-ee98f",
+    "storage_bucket": "ecommerce-ee98f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246270943333:android:92359b6f949fe45867668c",
+        "android_client_info": {
+          "package_name": "com.brian.ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246270943333-kjcjladir0bd1abgcm4ruek8ltn9tqp9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIx3_VOtXRmKwcCeepyNepmyPr_8Xh-lo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "246270943333-kjcjladir0bd1abgcm4ruek8ltn9tqp9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
