@@ -5,7 +5,7 @@ width="200" hspace="10" vspace="10">
 
 eCommerce mobile shop is a self-hosted read-it-later app.  
 Unlike other services, eCommerce mobile shop is free and open source.  
-eCommerce mobile shop for Android is a companion app for ![welcome](https://user-images.githubusercontent.com/82508349/132172039-b35adc5b-aa73-40ea-9fd4-bc810dec1a29.png). You need a eCommerce mobile shop account first, which you are going to use in this app.
+eCommerce mobile shop for Android is a companion app for ![demo](https://user-images.githubusercontent.com/82508349/132172535-c4e04b03-6fba-435e-a95b-b55b34c7a2ae.gif). You need a eCommerce mobile shop account first, which you are going to use in this app.
 
 eCommerce mobile shop is available on the Google Play Store and F-Droid.
 
@@ -42,14 +42,12 @@ The android app lets you:
 - Switch between numerous themes.
 - Needs no special permissions on Android 6.0+.
 
-## Screenshots
+## Workflow
+-Spring one create MainActivity, with the loginActivity
+-spring two create HomeActivity, AdminCategoryActivity.
+-spring three create AdminAddNewProductActivity, FireBaseDatabase conectivity and registrationActivity.
 
-[<img src="/readme/eCommerce mobile shop%20Reading%20List.png" align="left"
-width="200"
-hspace="10" vspace="10">](/readme/eCommerce mobile shop%20Reading%20List.png)
-[<img src="/readme/eCommerce mobile shop%20Article%20View.png" align="center"
-width="200"
-hspace="10" vspace="10">](/readme/eCommerce mobile shop%20Article%20View.png)
+
 
 ## Permissions
 
