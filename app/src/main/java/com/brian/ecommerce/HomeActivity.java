@@ -65,8 +65,8 @@ public class HomeActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Intent intent = new Intent(HomeActivity.this, CartActivity.class);
+                startActivity(intent);
             }
         });
 
@@ -110,12 +110,21 @@ public class HomeActivity extends AppCompatActivity
         FirebaseRecyclerAdapter<Products, ProductViewHolder> adapter =
                 new FirebaseRecyclerAdapter<Products, ProductViewHolder>(options) {
                     @Override
-                    protected void onBindViewHolder(@NonNull ProductViewHolder holder, int position, @NonNull Products model)
+                    protected void onBindViewHolder(@NonNull ProductViewHolder holder, int position, @NonNull final Products model)
                     {
                         holder.txtProductName.setText(model.getPname());
                         holder.txtProductDescription.setText(model.getDescription());
-                        holder.txtProductPrice.setText("Price = " + model.getPrice() + "$");
+                        holder.txtProductPrice.setText("Price = " + model.getPrice() + "ksh ");
                         Picasso.get().load(model.getImage()).into(holder.imageView);
+
+                        holder.itemView.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                Intent intent = new Intent(HomeActivity.this,ProductDetailsActivity.class);
+                                intent.putExtra("pid", model.getPid());
+                                startActivity(intent);
+                            }
+                        });
                     }
 
                     @NonNull
@@ -176,11 +185,13 @@ public class HomeActivity extends AppCompatActivity
 
         if (id == R.id.nav_cart)
         {
-
+            Intent intent = new Intent(HomeActivity.this, CartActivity.class);
+            startActivity(intent);
         }
-        else if (id == R.id.nav_orders)
+        else if (id == R.id.nav_search)
         {
-
+            Intent intent = new Intent(HomeActivity.this, SearchProductsActivity.class);
+            startActivity(intent);
         }
         else if (id == R.id.nav_categories)
         {
@@ -188,11 +199,12 @@ public class HomeActivity extends AppCompatActivity
         }
         else if (id == R.id.nav_settings)
         {
-//            Intent intent = new Intent(HomeActivity.this, SettinsActivity.class);
-//            startActivity(intent);
+            Intent intent = new Intent(HomeActivity.this, SettinsActivity.class);
+            startActivity(intent);
         }
         else if (id == R.id.nav_logout)
         {
+
             Paper.book().destroy();
 
             Intent intent = new Intent(HomeActivity.this, MainActivity.class);

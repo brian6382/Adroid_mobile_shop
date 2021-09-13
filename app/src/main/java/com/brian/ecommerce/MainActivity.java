@@ -1,8 +1,8 @@
 package com.brian.ecommerce;
 
 import android.app.ProgressDialog;
-import android.content.Intent;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
