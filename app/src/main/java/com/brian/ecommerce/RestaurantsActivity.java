@@ -47,7 +47,7 @@ public class RestaurantsActivity extends AppCompatActivity {
         mLocationTextView.setText("Here are all the shopping center near: " + location);
 
         YelpApi client = (YelpApi) YelpClient.getClient();
-        Call<YelpBusinessesSearchResponse> call = client.getRestaurants(location, "location");
+        Call<YelpBusinessesSearchResponse> call = client.getRestaurants(location, "shoes");
 
         call.enqueue(new Callback<YelpBusinessesSearchResponse>() {
             @Override

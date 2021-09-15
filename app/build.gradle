@@ -104,6 +104,12 @@ dependencies {
 
     //  Robolectric dependencies
     testImplementation 'org.robolectric:robolectric:4.5.1'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+//Robolectric dependencies
+
+    testImplementation 'org.robolectric:robolectric:4.5.1'
 
 //  Espresso
     androidTestImplementation 'androidx.test:runner:1.4.0'
