@@ -1,5 +1,14 @@
 package com.brian.ecommerce;
 
+import android.content.Intent;
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
 import android.app.ProgressDialog;
 
 import android.content.Intent;
@@ -24,12 +33,16 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import io.paperdb.Paper;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+    @BindView(R.id.findRestaurantsButton) Button mFindRestaurantsButton;
+    @BindView(R.id.locationEditText) EditText mLocationEditText;
+    @BindView(R.id.appNameTextView) TextView mAppNameTextView;
     private ProgressDialog loadingBar;
     @BindView(R.id.main_join_now_btn) Button joinNowButton;
     @BindView(R.id.main_login_btn) Button loginButton;
-
 
 
 
@@ -38,6 +51,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
+
+        mFindRestaurantsButton.setOnClickListener(this);
 
         loadingBar = new ProgressDialog(this);
 
@@ -129,5 +144,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-}
 
+
+    @Override
+    public void onClick(View v){
+        if (v == mFindRestaurantsButton) {
+            String location = mLocationEditText.getText().toString();
+            Intent intent = new Intent(MainActivity.this, RestaurantsActivity.class);
+            intent.putExtra("location", location);
+            startActivity(intent);
+        }
+
+    }
+}
