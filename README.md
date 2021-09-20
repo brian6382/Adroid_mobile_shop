@@ -7,12 +7,12 @@ eCommerce mobile shop for Android is a companion app for ![demo](https://user-im
 eCommerce mobile shop is available on the Google Play Store and F-Droid.
 
 <p align="left">
-<a href="https://play.google.com/store/apps/details?id=fr.gaulupeau.apps.InThePoche">
+<a href="#">
     <img alt="Get it on Google Play"
         height="80"
         src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" />
 </a>  
-<a href="https://f-droid.org/app/fr.gaulupeau.apps.InThePoche">
+<a href="#">
     <img alt="Get it on F-Droid"
         height="80"
         src="https://f-droid.org/badge/get-it-on.png" />
