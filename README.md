@@ -61,8 +61,8 @@ The "Run at startup" permission is only used if Auto-Sync feature is enabled and
 ## Contributing
 
 eCommerce mobile shop app is a free and open source project developed by volunteers. Any contributions are welcome. Here are a few ways you can help:
-* [Report bugs and make suggestions.](https://github.com/eCommerce mobile shop/android-app/issues)
-* [Translate the app](https://hosted.weblate.org/projects/eCommerce mobile shop/android-app/) 
+* [Report bugs and make suggestions.](https://github.com/eCommere mobile shop/android-app/issues)
+* [Translate the app](https://hosted.weblate.org/projects/eCommere mobile shop/android-app/) 
 * (you don't have to create an account).
 * Write some code. Please follow the code style used in the project to make a review process faster.
 
