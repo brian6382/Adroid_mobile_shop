@@ -2,7 +2,8 @@
 
 eCommerce mobile shop is a self-hosted read-it-later app.  
 Unlike other services, eCommerce mobile shop is free and open source.  
-eCommerce mobile shop for Android is a companion app for ![demo](https://user-images.githubusercontent.com/82508349/132172535-c4e04b03-6fba-435e-a95b-b55b34c7a2ae.gif). 
+eCommerce mobile shop for Android is a companion app for ![demo](https://user-images.githubusercontent.com/82508349/132172535-c4e04b03-6fba-435e-a95b-b55b34c7a2ae.gif)
+
 You need a eCommerce mobile shop account first, which you are going to use in this app.
 
 eCommerce mobile shop is available on the Google Play Store and F-Droid.
@@ -61,7 +62,8 @@ The "Run at startup" permission is only used if Auto-Sync feature is enabled and
 
 eCommerce mobile shop app is a free and open source project developed by volunteers. Any contributions are welcome. Here are a few ways you can help:
 * [Report bugs and make suggestions.](https://github.com/eCommerce mobile shop/android-app/issues)
-* [Translate the app](https://hosted.weblate.org/projects/eCommerce mobile shop/android-app/) (you don't have to create an account).
+* [Translate the app](https://hosted.weblate.org/projects/eCommerce mobile shop/android-app/) 
+* (you don't have to create an account).
 * Write some code. Please follow the code style used in the project to make a review process faster.
 
 
