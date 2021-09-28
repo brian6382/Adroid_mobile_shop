@@ -2,7 +2,8 @@
 
 eCommerce mobile shop is a self-hosted read-it-later app.  
 Unlike other services, eCommerce mobile shop is free and open source.  
-eCommerce mobile shop for Android is a companion app for ![demo](https://user-images.githubusercontent.com/82508349/132172535-c4e04b03-6fba-435e-a95b-b55b34c7a2ae.gif). You need a eCommerce mobile shop account first, which you are going to use in this app.
+eCommerce mobile shop for Android is a companion app for ![demo](https://user-images.githubusercontent.com/82508349/132172535-c4e04b03-6fba-435e-a95b-b55b34c7a2ae.gif). 
+You need a eCommerce mobile shop account first, which you are going to use in this app.
 
 eCommerce mobile shop is available on the Google Play Store and F-Droid.
 
