@@ -1,4 +1,4 @@
-# eCommerce mobile shop - Android App ![welcome](https://user-images.githubusercontent.com/82508349/132172039-b35adc5b-aa73-40ea-9fd4-bc810dec1a29.png)
+# eCommerce mobile shop - Android App ![screen](https://user-images.githubusercontent.com/82508349/135058021-3aba7e60-541d-414c-a9f8-66707c253eaa.jpg)
 
 eCommerce mobile shop is a self-hosted read-it-later app.  
 Unlike other services, eCommerce mobile shop is free and open source.  
